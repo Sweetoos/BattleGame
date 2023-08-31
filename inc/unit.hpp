@@ -6,6 +6,8 @@ class cUnit
 {
 protected:
     std::string Race;                 // unit race
+    int Experience;                   // current experience
+    int LVL;                          // current level
     int HP;                           // health points
     int AD;                           // attack damage
     int AP;                           // ability power
