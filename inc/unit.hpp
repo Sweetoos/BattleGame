@@ -5,9 +5,10 @@
 class cUnit
 {
 protected:
+    uint UnitID;                      // unit ID
     std::string Race;                 // unit race
     int Experience;                   // current experience
-    int LVL;                          // current level
+    uint LVL;                         // current level
     int HP;                           // health points
     int AD;                           // attack damage
     int AP;                           // ability power
@@ -16,13 +17,15 @@ protected:
     int MS;                           // movement speed
     std::string UnitName;             // unit name
     std::list<std::string> Abilities; // abilities list
-    std::string Voice;                // voice after action
+    uint VoiceNumber;                 // voice number after doing sth
 
 public:
+    cUnit();
     cUnit(std::string, int, int, int, int, int, int, std::string, std::list<std::string>);
     ~cUnit();
     void dotWaiting(char dot);
-    void createHero(cUnit Hero);
+    uint getVoiceNum(int voicenum);
+    // void createHero(int id);
 };
 
 #endif
