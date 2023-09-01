@@ -46,8 +46,3 @@ uint cUnit::getVoiceNum(int voicenum)
     return VoiceNumber;
 }
 
-// void cUnit::createHero(int id)
-// {
-//     std::vector<cUnit> Hero;
-//     Hero[id];
-// }
