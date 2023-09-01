@@ -5,4 +5,4 @@ project(run VERSION 1.0)
 
 file(GLOB_RECURSE SRC_FILES src/*.cpp)
 add_executable(run ${SRC_FILES})
-target_include_directories(a PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/inc)
+target_include_directories(run PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/inc)
