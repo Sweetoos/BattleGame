@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/run.dir/src/main.cpp.o CMakeFiles/run.dir/src/races.cpp.o CMakeFiles/run.dir/src/unit.cpp.o -o run 
